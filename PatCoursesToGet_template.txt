@@ -1,3 +1,0 @@
-0079abcd	1 Lt Breast	Pat01
-1000abcd4	1 Prostate	Pat02
-100abcd30	1 PRSTBD	Pat03
