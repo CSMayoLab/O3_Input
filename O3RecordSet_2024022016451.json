@@ -1,0 +1,273 @@
+{
+  "O3DataSetName": "Test",
+  "O3Record_List": [
+    {
+      "O3Patient": {
+        "Patient_GUID": "7a176b0c-975c-423f-b1db-3e207bcca043",
+        "Patient_MRN": "1234",
+        "Patient_AnonPatID": null,
+        "Patient_PatIDS": null,
+        "Patient_DateOfBirth": "1962-06-01T00:00:00",
+        "PatientInformation_List": [
+          {
+            "PatientInformation_GUID": "c940a774-6143-4a72-9d75-d351e11f5ff0",
+            "Patient_GUID": "7a176b0c-975c-423f-b1db-3e207bcca043",
+            "PatientInformation_DateOfRecord": "2023-10-15T00:00:00",
+            "PatientInformation_AgeAtRecord": 61.3716632,
+            "PatientInformation_VitalStatus": "Alive",
+            "PatientInformation_PostalCodeDomicile": null
+          },
+          {
+            "PatientInformation_GUID": "05f1dfd2-b764-4d60-a7fc-72eefc1716f0",
+            "Patient_GUID": "7a176b0c-975c-423f-b1db-3e207bcca043",
+            "PatientInformation_DateOfRecord": "2023-11-15T00:00:00",
+            "PatientInformation_AgeAtRecord": 61.4565366,
+            "PatientInformation_VitalStatus": "Dead",
+            "PatientInformation_PostalCodeDomicile": null
+          }
+        ],
+        "RTCourse_List": [
+          {
+            "RTCourse_GUID": "8657a91e-7ed9-4028-a9b5-524ee65be4bb",
+            "Patient_GUID": "7a176b0c-975c-423f-b1db-3e207bcca043",
+            "RTCourse_DateOfRecord": "2023-10-15T00:00:00",
+            "RTCourse_AgeAtRecord": 61.3716632,
+            "RTCourse_Facility": null,
+            "RTCourse_FacilityPostalCode": null,
+            "RTCourse_Name": "C1 Prostate",
+            "RTCourse_Objective": "Definitive",
+            "RTCourse_NSessionsInCourse": 5,
+            "RTCourseSession_List": [
+              {
+                "RTCourseSession_GUID": "13da2371-bd6f-4dfa-98a1-dd10810448b0",
+                "RTCourse_GUID": "8657a91e-7ed9-4028-a9b5-524ee65be4bb",
+                "RTCourseSession_DateOfRecord": "2023-10-15T00:00:00",
+                "RTCourseSession_Number": 1,
+                "RTCourseSession_NCBCTInSession": 1,
+                "RTCourseSession_NkVInSession": 0,
+                "RTCourseSession_NMVInSession": 0
+              },
+              {
+                "RTCourseSession_GUID": "e475917b-3b09-4777-80f7-3607e71b7e5b",
+                "RTCourse_GUID": "8657a91e-7ed9-4028-a9b5-524ee65be4bb",
+                "RTCourseSession_DateOfRecord": "2023-10-16T00:00:00",
+                "RTCourseSession_Number": 2,
+                "RTCourseSession_NCBCTInSession": 1,
+                "RTCourseSession_NkVInSession": 0,
+                "RTCourseSession_NMVInSession": 0
+              },
+              {
+                "RTCourseSession_GUID": "232c12f7-5708-448e-90e8-a44a5ab98543",
+                "RTCourse_GUID": "8657a91e-7ed9-4028-a9b5-524ee65be4bb",
+                "RTCourseSession_DateOfRecord": "2023-10-17T00:00:00",
+                "RTCourseSession_Number": 3,
+                "RTCourseSession_NCBCTInSession": 1,
+                "RTCourseSession_NkVInSession": 0,
+                "RTCourseSession_NMVInSession": 0
+              },
+              {
+                "RTCourseSession_GUID": "abd4bfc2-7ba8-4406-8db7-8920b0d4e874",
+                "RTCourse_GUID": "8657a91e-7ed9-4028-a9b5-524ee65be4bb",
+                "RTCourseSession_DateOfRecord": "2023-10-18T00:00:00",
+                "RTCourseSession_Number": 4,
+                "RTCourseSession_NCBCTInSession": 1,
+                "RTCourseSession_NkVInSession": 0,
+                "RTCourseSession_NMVInSession": 0
+              },
+              {
+                "RTCourseSession_GUID": "7a30aae6-cb0b-49b4-9852-7dd0e9e8a383",
+                "RTCourse_GUID": "8657a91e-7ed9-4028-a9b5-524ee65be4bb",
+                "RTCourseSession_DateOfRecord": "2023-10-19T00:00:00",
+                "RTCourseSession_Number": 5,
+                "RTCourseSession_NCBCTInSession": 1,
+                "RTCourseSession_NkVInSession": 0,
+                "RTCourseSession_NMVInSession": 0
+              }
+            ],
+            "RTCourseEvent_List": [
+              {
+                "RTCourseEvent_GUID": "5c1858c1-f3dd-447e-b5de-15d27be97e5c",
+                "RTCourse_GUID": "8657a91e-7ed9-4028-a9b5-524ee65be4bb",
+                "RTCourseEvent_DateOfRecord": "2023-10-15T00:00:00",
+                "RTCourseEvent_AgeAtRecord": 61.3716632,
+                "RTCourseEvent_Type": "Treatment Start"
+              },
+              {
+                "RTCourseEvent_GUID": "da3215f3-36de-4858-8fdd-014a8e243822",
+                "RTCourse_GUID": "8657a91e-7ed9-4028-a9b5-524ee65be4bb",
+                "RTCourseEvent_DateOfRecord": "2023-10-19T00:00:00",
+                "RTCourseEvent_AgeAtRecord": 61.3826146,
+                "RTCourseEvent_Type": "Treatment Completed"
+              }
+            ],
+            "RTCourseTargetDose_List": [
+              {
+                "RTCourseTargetDose_GUID": "d63ee7dc-91a1-4e88-8db7-30b0120c8cff",
+                "RTCourse_GUID": "8657a91e-7ed9-4028-a9b5-524ee65be4bb",
+                "RTCourseTarget_VolumeName": "PTV_High",
+                "RTCourseTarget_VolumeDose": 50,
+                "RTCourseTarget_DoseUnit": "Gy"
+              }
+            ],
+            "RTPhase_List": [],
+            "RTTreatedPlan_List": [
+              {
+                "RTTreatedPlan_GUID": "bcd483e2-3b33-4b2d-9027-dde838b32fb0",
+                "RTCourse_GUID": "8657a91e-7ed9-4028-a9b5-524ee65be4bb",
+                "RTTreatedPlan_Name": "1.1 Prostate",
+                "RTTreatedPlan_Modality": "Photon",
+                "RTTreatedPlan_TypeOfPatientPositioningDevice": ";Foot Blocks;",
+                "RTTreatedPlan_TreatedInSessions": "1 ;2 ;",
+                "RTTreatedPlanDetailsXRT": {
+                  "RTTreatedPlanDetailsXRT_GUID": "59816c89-3c24-4496-a9b6-f0369bc13152",
+                  "RTTreatedPlan_GUID": "bcd483e2-3b33-4b2d-9027-dde838b32fb0",
+                  "RTTreatedPlanDetailsXRT_Technique": "VMAT"
+                }
+              },
+
+              {
+                "RTTreatedPlan_GUID": "f5c3f5c2-8d37-4b0a-bd09-4592062bada1",
+                "RTCourse_GUID": "8657a91e-7ed9-4028-a9b5-524ee65be4bb",
+                "RTTreatedPlan_Name": "1.2 Prostate Adapt",
+                "RTTreatedPlan_Modality": "Photon",
+                "RTTreatedPlan_TypeOfPatientPositioningDevice": ";Foot Blocks;",
+                "RTTreatedPlan_TreatedInSessions": "3 ;4 ;5 ;",
+                "RTTreatedPlanDetailsXRT": {
+                  "RTTreatedPlanDetailsXRT_GUID": "dbebe89b-e81d-48c5-a65a-54adac356d13",
+                  "RTTreatedPlan_GUID": "f5c3f5c2-8d37-4b0a-bd09-4592062bada1",
+                  "RTTreatedPlanDetailsXRT_Technique": "VMAT"
+                }
+              }
+            ]
+          }
+        ],
+        "DiagStaging_List": [
+          {
+            "DiagStaging_GUID": "7afea2c3-fbf4-45eb-98e1-fd9660219909",
+            "Patient_GUID": "7a176b0c-975c-423f-b1db-3e207bcca043",
+            "DiagStaging_DateOfRecord": "2023-08-01T00:00:00",
+            "DiagStaging_AgeAtRecord": 61.1663244,
+            "DiagStaging_StagingSystem": "AJCC8",
+            "DiagStaging_ICDVersion": "ICD10",
+            "DiagStaging_ICDCode": "C61",
+            "DiagStaging_StagingTCategory": "Clinical",
+            "DiagStaging_StagingT": "T1",
+            "DiagStaging_StagingN": "N0",
+            "DiagStaging_StagingM": "M0",
+            "DiagStaging_Overall": "I",
+            "DiagStagingProst_List": null,
+            "DiagStagingTreatmentOverview_List": null
+          }
+        ],
+        "PatientTreatmentOutcome_List": [
+          {
+            "PatientTreatmentOutcome_GUID": "81c71ffa-26d3-4c01-8c65-9f53f8116a82",
+            "Patient_GUID": "7a176b0c-975c-423f-b1db-3e207bcca043",
+            "PatientTreatmentOutcome_DateOfRecord": "2023-10-15T00:00:00",
+            "PatientTreatmentOutcome_AgeAtRecord": 61.3716632,
+            "PatientTreatmentOutcome_DiseaseStatus": "Under Treatment"
+          },
+          {
+            "PatientTreatmentOutcome_GUID": "21a9f19a-8fe3-4e7a-938c-dee426960c8d",
+            "Patient_GUID": "7a176b0c-975c-423f-b1db-3e207bcca043",
+            "PatientTreatmentOutcome_DateOfRecord": "2024-01-15T00:00:00",
+            "PatientTreatmentOutcome_AgeAtRecord": 61.6235455,
+            "PatientTreatmentOutcome_DiseaseStatus": "No evidence of disease (NED)"
+          }
+        ]
+      },
+      "O3PatientRelationship_List": [
+        {
+          "KeyElement_Type_1": "Patient",
+          "KeyElement_GUID_1": "7a176b0c-975c-423f-b1db-3e207bcca043",
+          "KeyElement_Type_2": "PatientInformation",
+          "KeyElement_GUID_2": "c940a774-6143-4a72-9d75-d351e11f5ff0",
+          "RelationshipType": "Parent-Child"
+        },
+        {
+          "KeyElement_Type_1": "Patient",
+          "KeyElement_GUID_1": "7a176b0c-975c-423f-b1db-3e207bcca043",
+          "KeyElement_Type_2": "PatientInformation",
+          "KeyElement_GUID_2": "05f1dfd2-b764-4d60-a7fc-72eefc1716f0",
+          "RelationshipType": "Parent-Child"
+        }
+      ]
+    },
+    {
+      "O3Patient": {
+        "Patient_GUID": "ce4118c3-241a-400e-b157-a144f532e7be",
+        "Patient_MRN": "2345",
+        "Patient_AnonPatID": null,
+        "Patient_PatIDS": null,
+        "Patient_DateOfBirth": "1972-07-01T00:00:00",
+        "PatientInformation_List": [
+          {
+            "PatientInformation_GUID": "ca4a8faa-e488-4255-ab0f-daee253e5fc0",
+            "Patient_GUID": "ce4118c3-241a-400e-b157-a144f532e7be",
+            "PatientInformation_DateOfRecord": "2022-07-15T00:00:00",
+            "PatientInformation_AgeAtRecord": 50.0369610,
+            "PatientInformation_VitalStatus": "Alive",
+            "PatientInformation_PostalCodeDomicile": null
+          }
+        ],
+        "RTCourse_List": [],
+        "DiagStaging_List": [],
+        "PatientTreatmentOutcome_List": []
+      },
+      "O3PatientRelationship_List": [
+        {
+          "KeyElement_Type_1": "Patient",
+          "KeyElement_GUID_1": "ce4118c3-241a-400e-b157-a144f532e7be",
+          "KeyElement_Type_2": "PatientInformation",
+          "KeyElement_GUID_2": "ca4a8faa-e488-4255-ab0f-daee253e5fc0",
+          "RelationshipType": "Parent-Child"
+        }
+      ]
+    },
+    {
+      "O3Patient": {
+        "Patient_GUID": "9a3c8477-868d-49fc-83d3-d336b8941017",
+        "Patient_MRN": "3456",
+        "Patient_AnonPatID": null,
+        "Patient_PatIDS": null,
+        "Patient_DateOfBirth": "1982-08-01T00:00:00",
+        "PatientInformation_List": [
+          {
+            "PatientInformation_GUID": "756754cc-4d6a-411d-ae55-61954d965011",
+            "Patient_GUID": "9a3c8477-868d-49fc-83d3-d336b8941017",
+            "PatientInformation_DateOfRecord": "2000-05-15T00:00:00",
+            "PatientInformation_AgeAtRecord": 17.7878166,
+            "PatientInformation_VitalStatus": "Alive",
+            "PatientInformation_PostalCodeDomicile": null
+          }
+        ],
+        "RTCourse_List": [],
+        "DiagStaging_List": [],
+        "PatientTreatmentOutcome_List": []
+      },
+      "O3PatientRelationship_List": [
+        {
+          "KeyElement_Type_1": "Patient",
+          "KeyElement_GUID_1": "9a3c8477-868d-49fc-83d3-d336b8941017",
+          "KeyElement_Type_2": "PatientInformation",
+          "KeyElement_GUID_2": "756754cc-4d6a-411d-ae55-61954d965011",
+          "RelationshipType": "Parent-Child"
+        }
+      ]
+    },
+    {
+      "O3Patient": {
+        "Patient_GUID": "c05d2b7e-ff98-4eae-aba2-e9c9ed22b9c5",
+        "Patient_MRN": "4567",
+        "Patient_AnonPatID": null,
+        "Patient_PatIDS": null,
+        "Patient_DateOfBirth": "1952-09-01T00:00:00",
+        "PatientInformation_List": [],
+        "RTCourse_List": [],
+        "DiagStaging_List": [],
+        "PatientTreatmentOutcome_List": []
+      },
+      "O3PatientRelationship_List": []
+    }
+  ]
+}
